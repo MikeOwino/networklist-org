@@ -13,7 +13,7 @@ export default function shutdownNotice({ close }) {
             Site live again.
           </Typography>
           <Typography className={classes.para2} align='center'>
-            Few changes happening in the website you might encounter some few bugs in the next few days.
+            Few changes happening in the website, you might encounter some few bugs in the next few days.
           </Typography>
           <div className={ classes.buttonsContainer }>
             <Button
