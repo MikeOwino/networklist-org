@@ -10,7 +10,7 @@ export default function shutdownNotice({ close }) {
         <div className={classes.warningContainer}>
           <PowerSettingsNewIcon className={ classes.warningIcon } />
           <Typography className={classes.para2} align='center'>
-            Site live agein.
+            Site live again.
           </Typography>
           <Typography className={classes.para2} align='center'>
             Few changes happening in the website you might encounter some few bugs in the next few days.
