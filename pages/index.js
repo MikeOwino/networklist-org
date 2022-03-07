@@ -165,7 +165,7 @@ function Home({ changeTheme, theme }) {
                       fullWidth
                       className={ classes.searchContainer }
                       variant="outlined"
-                      placeholder="ETH, Fantom, ..."
+                      placeholder="ETH, Optimism, ..."
                       value={ search }
                       onChange={ onSearchChanged }
                       InputProps={{
