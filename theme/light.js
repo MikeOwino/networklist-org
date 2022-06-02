@@ -3,7 +3,7 @@ import { red } from '@material-ui/core/colors';
 import coreTheme from './coreTheme';
 
 // Create a theme instance.
-const theme = createMuiTheme({
+const theme = createTheme({
   ...coreTheme,
   palette: {
     ...coreTheme.palette,
@@ -21,7 +21,7 @@ const theme = createMuiTheme({
       main: '#DEDEDE'
     },
     type: 'light',
-  },
+  },createTheme
   overrides: {
     ...coreTheme.overrides,
     MuiButton: {
