@@ -100,7 +100,7 @@ export default function Chain({ chain }) {
           src='/connectors/icn-asd.svg'
           onError={e => {
             e.target.onerror = null;
-            e.target.src = "/chains/unknown-logo.png";
+            e.target.src = "/chains/ethereum.jpeg";
           }}
           width={ 28 }
           height={ 28 }
